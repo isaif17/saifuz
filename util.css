@@ -1,0 +1,53 @@
+.join-container{
+    width: 100%;
+    height: 100vh;
+
+}
+.join-container p{
+    width: 60%;
+    margin: 30px;
+    font-size: 18px;
+}
+.join-container h3{
+    width: 60%;
+    margin: 30px;
+    font-weight: bold;
+}
+.join-container ol{
+    width: 60%;
+    margin-left:45px;
+
+}
+
+#contact1{
+ 
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+    
+}
+.right{
+    width: 40%;
+    float: right;
+
+}
+.right img{
+    position: relative;
+    width: 90%;
+    height: 55%;
+  
+}
+.left{
+    width: 50%;
+    height: 50%;
+}
+input{
+    width: 90%;
+    margin: 10px 0px 10px 30px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+.nav{
+    position: static;
+}

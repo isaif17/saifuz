@@ -1,0 +1,507 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500;700&family=Balsamiq+Sans&family=Poppins:wght@100&family=Prata&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+/* --------------------------------------------------
+           START NAVBAR SECTION
+-------------------------------------------------- */
+
+header{
+    position: sticky;
+    top: 0px;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+    
+nav img{
+    width: 350px;
+    height: 125px;
+    position: relative;
+    left: 10%;
+}
+ul {
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul li{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 32px;
+    font-size: 18px;
+    position: relative;
+    left: 50%;
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+ul li a{
+   color: black;
+   text-decoration: none;
+   
+}
+button{
+  position: relative;
+  left: 20%;
+  width: 100px;
+  padding: 2px;
+  margin: 50px;
+  background-color: #4cae4c;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+ul li a:hover{
+    color: royalblue;
+    cursor: pointer;
+}
+
+/* --------------------------------------------------
+           START CONTAINER SECTION
+-------------------------------------------------- */
+
+
+.container{
+    display: flex;
+}
+.box1{
+    width: 50%;
+    height: 75vh;
+     background-color: rgb(60, 152, 213);
+}
+.box2{
+    width: 50%;
+    height: 75vh;
+    background-color: orange;
+}
+h1{
+    font-size: 50px;
+    margin-top:200px;
+    margin-left: 125px;
+     font-family: 'AR One Sans', sans-serif;
+     color: white;
+}
+h5{
+    margin-top:20px;
+    margin-left: 125px;
+    font-size: 20px;
+
+}
+.h1{
+    color: black;
+}
+
+
+/* --------------------------------------------------
+           START MAIN SECTION
+-------------------------------------------------- */
+#about{
+    display: flex;
+    /* height: 650px; */
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+}
+.card-x{
+    width: 50%;
+    height: 70vh;
+    
+}
+.card-x img{
+    width: 600px;
+    height: 600px;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+.card-y{
+    width: 50%;
+    height: 70vh;
+    
+}
+h2{
+    background-color:  rgb(61, 65, 197);
+    width: 550px;
+    height: 40px;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 115px;
+    padding: 15px;
+    font-family: 'AR One Sans', sans-serif;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.card-y h4{
+    text-align: center;
+    margin: 12px;
+    font-size: 18px;
+    font-family: 'AR One Sans', sans-serif;
+
+}
+.card-y p{
+    
+    margin: 12px;
+    font-family: 'AR One Sans', sans-serif;
+    padding:  0 80px;
+    justify-content: center;
+
+}
+
+/* --------------------------------------------------
+           START SERVICES SECTION
+-------------------------------------------------- */
+
+#service{
+    background-color: #3A56A1;
+    width: 100%;
+    height: 65vh;
+    margin-top : 80px;
+}
+#service h1{
+    position: relative;
+    left: 32%;
+   padding: 10px;
+   
+  
+}
+.services{
+    display: flex;
+    padding: 0 25px;
+   
+}
+
+.c1{
+    background-color: rgb(211, 209, 209);
+    width:500px;
+    height: 280px;
+    margin:  0 15px;
+}
+.c2{
+    background-color: rgb(213, 209, 209);
+    width:500px;
+    height: 280px;
+    margin:  0 15px;
+}
+.c3{
+    background-color: rgb(224, 224, 224);
+    width:500px;
+    height: 280px;
+    margin:  0 16px;
+}
+.c1 h3{
+    font-size: 25px;
+    padding: 22px;   
+}
+.c1 p{
+    font-size: 18px;
+    padding: 5px 15px 25px 22px;   
+    justify-content: center;
+}
+.c2 h3{
+    font-size: 25px;
+    padding: 22px;   
+}
+.c2 p{
+    font-size: 18px;
+    padding: 5px 15px 25px 22px;   
+    justify-content: center;
+}
+.c3 h3{
+    font-size: 25px;
+    padding: 20px;   
+}
+.c3 p{
+    font-size: 18px;
+    padding: 2px 15px 34px 22px;   
+    justify-content: center;
+}
+.btn2{
+   background-color: royalblue;
+   padding: 10px;
+   font-size: 15px;
+   margin: 155px; 
+   align-items: center;  
+   border-radius: 5px;
+   text-decoration: none;
+  
+}
+.btn2 a{
+}
+.btn2:hover{
+    background-color: rgb(131, 192, 163);
+}
+
+/* --------------------------------------------------
+           START INDUSTRY SECTION
+-------------------------------------------------- */
+
+#industry{
+    width: 100%;
+    height: 100vh;
+    margin-top: 75px;
+    
+}
+.work{
+    text-align: center;
+    padding: 25px;
+    font-size: 32px;
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: bold;
+}
+.card1.card2.card3.card4.cad5.card6.card7.card8,img{
+    width: 250px;
+    height: 155px;
+}
+.card{
+    display: inline-block;
+    margin: 10px  5px 20px 60px;
+    position: relative;
+    left: 3%;
+    border: 1px solid rgb(127, 125, 125);
+    overflow: hidden;
+   
+}
+.card p{
+    text-align: center;
+    background-color: rgba(204, 195, 195, 0.56);
+    font-family: 'AR One Sans', sans-serif;
+    padding: 8px;
+    margin: -5px 0 0 0;
+}
+.btn3{
+    background-color: royalblue;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    margin-left: 48%;
+    margin-top: 80%; 
+    align-items: center;  
+    border-radius: 5px;
+    text-decoration: none;
+   
+ }
+ .btn3 a{
+    color: black;
+ }
+ .card img:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+ }
+
+ /* --------------------------------------------------
+           START MAP SECTION
+-------------------------------------------------- */
+
+
+#coverage img{
+    width: 80%;
+    height: 600px;
+    position: relative;
+    left: 11%;
+
+}
+
+ /* --------------------------------------------------
+           START Conatct Us SECTION
+-------------------------------------------------- */
+
+
+#contact{
+    background-color: royalblue;
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+    
+}
+.right{
+    width: 40%;
+    float: right;
+
+}
+.right img{
+    position: relative;
+    bottom: 250px;
+    width: 90%;
+    height: 55%;
+  
+}
+.left{
+    width: 50%;
+    height: 50%;
+}
+input{
+    width: 90%;
+    margin: 10px 0px 10px 30px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+textarea{
+    width: 90%;
+    margin: 10px 0px 10px 30px; 
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+.form-bt{
+    /* position: relative; */
+  /* left: 15%; */
+  width: 45%;
+  padding: 10px;
+  margin: 10px 0px 10px 30px; 
+  background-color: #4cae4c;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+.form-bt:hover{
+    background-color: rgb(71, 182, 91);
+
+}
+.work1{
+    color: white;
+}
+
+/* --------------------------------------------------
+           START FOOT SECTION
+-------------------------------------------------- */
+
+#foot{
+ display: flex;
+ width: 100%;
+ height: 250px;
+}
+.container-1{
+    display: flex;
+    width: 50%;
+    height: 220px;
+}
+.b1 img{
+    width: 300px;
+    height: 110px;
+    margin:52px;
+}
+.b2{
+   
+    margin:52px;
+    
+}
+.b2 h4{
+  
+    width: 80px;
+    font-size: 20px;
+    font-family: 'AR One Sans', sans-serif;
+    border-bottom: 2px solid rgb(247, 161, 41);
+}
+.b2 p{
+    display: block;
+    
+   
+}
+
+
+.b2 li{
+    list-style: none;
+    padding: 5px;
+      
+}
+.b2 li a{
+
+    font-family: 'AR One Sans', sans-serif;
+    color:#F20C78;
+    font-size: 14px;
+    font-weight: bold;
+    
+   
+}
+   
+.container-2{
+    display: flex;
+    width: 50%;
+    height: 300px;
+}
+.b3 h4{
+    font-size: 20px;
+    font-family: 'AR One Sans', sans-serif;
+    border-bottom: 2px solid orange;
+    width: 80px;
+ 
+
+}
+.b3{
+    margin: 52px;
+}
+
+.b3 p{
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'AR One Sans', sans-serif;
+    color:#F20C78;
+}
+.b4{
+    margin: 52px;
+
+}
+.b4 h4{
+    font-size: 20px;
+    font-family: 'AR One Sans', sans-serif;
+    border-bottom: 2px solid orange;
+    width: 80px;
+}
+.b4 p{
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'AR One Sans', sans-serif;
+    color:#F20C78;
+}
+.icon{
+    font-size: 28px;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-instagram{
+    color: rgb(237, 109, 23);
+}
+.fa-twitter{
+    color: green;
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-youtube{
+    color: red;
+}
+
+/* --------------------------------------------------
+           START FOOT SECTION
+-------------------------------------------------- */
+
+footer{
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    height: 50px;
+    padding-top: 28px;
+    color: white;
+
+}
